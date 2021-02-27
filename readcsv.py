@@ -3,9 +3,8 @@ import numpy as np
 import pandas as pd
 
 def get_file_names():
-   f = open('file_names.txt')
-   file_names = ['Data/'+s.strip('\n') for s in f.readlines()]
-   f.close()
+   with open('file_names.txt') as f:
+       file_names = ['Data/'+s.strip('\n') for s in f.readlines()]
    return file_names 
 
 
