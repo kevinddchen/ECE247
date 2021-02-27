@@ -3,7 +3,6 @@ Bullion gold price.csv
 Dollar Nominal Effective Exchange Rate Index.csv
 Dollar Pound Exchange Rate.csv
 Euro Area Consumer Confidence Index.csv
-Euro Dollar Exchange Rate.csv
 Germany 1-month Treasury Bond Yield.csv
 Germany 3-month Treasury Bill Yield.csv
 Germany DAX Price Index.csv

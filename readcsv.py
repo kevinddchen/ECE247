@@ -10,7 +10,8 @@ def get_file_names():
 
 
 
-def get_data(start='2001-01-01', end='2019-12-31', pad='pad', verbose=False):   
+def get_data(start='2001-01-01', end='2019-12-31', pad='pad', 
+    cols=['Close', 'Open', 'High', 'Low'], verbose=False):   
     """ 
     Get all daily data, padding NaNs with appropriate values.
 
@@ -19,7 +20,8 @@ def get_data(start='2001-01-01', end='2019-12-31', pad='pad', verbose=False):
     - pad: either 'pad' for repeat last value, or 'interpolate' for linear
       interpolation between data points. Missing values in the beginning are
       filled with the first value of the data set.
-    - verbose: print file names and columns as we go
+    - cols: columns to get, if valid.
+    - verbose: print file names and columns as we go.
     """
 
     file_names = get_file_names()
@@ -29,12 +31,6 @@ def get_data(start='2001-01-01', end='2019-12-31', pad='pad', verbose=False):
     for name in file_names:
 
         df = pd.read_csv(name, sep=',', header=2, index_col=0, parse_dates=['Date'])
-
-        ## get all columns for USDEUR. 
-        if df['Ticker'][0] == 'USDEUR':
-            cols = ['Close', 'Open', 'High', 'Low']
-        else:
-            cols = ['Close']
 
         for col in cols:
             s = df[col]
