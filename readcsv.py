@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 
-def get_data(start='2001-01-01', end='2020-12-31', method='ffill',
+def get_data(start='1970-01-01', end='2020-12-31', method='ffill',
     normalize=True, init='bfill', txt='file_names.txt', verbose=False):   
 
     """ 
@@ -24,7 +24,7 @@ def get_data(start='2001-01-01', end='2020-12-31', method='ffill',
     ix = pd.date_range(start=start, end=end, freq='D')
 
     for name in file_names:
-
+        
         df = pd.read_csv(name, sep=',', header=2, index_col=0, parse_dates=['Date'])
 
         mean = None
