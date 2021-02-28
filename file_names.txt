@@ -1,33 +1,40 @@
-000USDEUR.csv
-Bullion gold price.csv
-Dollar Nominal Effective Exchange Rate Index.csv
-Dollar Pound Exchange Rate.csv
-Euro Area Consumer Confidence Index.csv
-Germany 1-month Treasury Bond Yield.csv
-Germany 3-month Treasury Bill Yield.csv
-Germany DAX Price Index.csv
-Germany PMI.csv
-Moody's BAA.csv
-Reuters CRB index.csv
-S&P 500Cowles Composite Price Index wGFD extension.csv
-Shanghai SE Composite.csv
-Switzerland Price Index (wGFD extension).csv
-Total Nonfarm Payroll.csv
-UK FTSE All-Share Index (wGFD extension).csv
-US Consumer Sentiment.csv
-US retail sales.csv
-US trade balance.csv
-USA 1-month Constant Maturity Treasury Bill Yield.csv
-USA 1-year Constant Maturity Note Yield.csv
-USA 10-year Bond Constant Maturity Yield.csv
-USA 2-year Government Note Yield.csv
-USA 30-Year Constant Maturity Government Bond Yield.csv
-USA Government 3-Month T-Bills Constant Maturity Yield.csv
-USA Government 6-Month T-Bills Constant Maturity Yield.csv
-USA PMI.csv
-USICSAM.csv
-Unemployment Rate (U-3).csv
-United States Consumer Confidence Index.csv
-United States Initial Claims for Unemployment Insurance.csv
-Yen Dollar Exchange Rate.csv
-oil price.csv
+000-EuroPerDollar(USDEUR).csv
+Commod-GoldPrice(__XAU_D).csv
+Commod-OilPrice(__WTC_D).csv
+Commod-ReutersCRBIndex(_TRCCRBD).csv
+CorpBond-MoodyBAA(MOCBAAD).csv
+Employ-EuropeUnemploymentRate(UNEUR19M).csv
+Employ-USInitialClaimsForUnemploymentInsurance(USICSAM).csv
+Employ-USTotalNonfarmPayroll(USPAYEMSM).csv
+Employ-USUnemploymentRate(UNUSAM).csv
+ExRate-DollarNominalEffectiveExchangeRate(XRNUSAM).csv
+ExRate-EuroNominalEffectiveExchangeRate(XRNEURM).csv
+ExRate-PoundPerDollar(USDGBP).csv
+ExRate-YenPerDollar(USDJPY).csv
+Export-EuropeExport(NE.EXP.GNFS.KD.EUU).csv
+Export-EuropeImport(NE.IMP.GNFS.KD.EUU).csv
+Export-USExport(USEXPGSAA).csv
+Export-USImport(USIMPGSAA).csv
+GovBond-Germany2-yearNoteYield(IGDEU2D).csv
+GovBond-Germany9-yearNoteYield(IGDEU9D).csv
+GovBond-US10-yearBondYield(IGUSA10D).csv
+GovBond-US2-yearNoteYield(IGUSA2D).csv
+Inflation-EuropeConsumerPriceIndex(CPEUR12M).csv
+Inflation-EuropeProducerPriceIndex(WPEUROPM).csv
+Inflation-USConsumerPriceIndex(CPUSAM).csv
+Inflation-USProducerPriceIndex(WPUSAM).csv
+Product-EuroAreaConsumerConfidenceIndex(CCEURM).csv
+Product-GermanyIndustrialProductionIndex(NDDEUM).csv
+Product-GermanyMarkitIndex(PMIDEUM).csv
+Product-USConsumerConfidenceIndex(CCUSAM).csv
+Product-USConsumerSentiment(USUMCSENTM).csv
+Product-USMarkitIndex(PMIUSAM).csv
+Product-USRetailSales(USRRSFSM).csv
+Product-UnitedStatesIndustrialProductionIndex(USINDPROM).csv
+Stock-GermanyDAXPriceIndex(_GDAXIPD).csv
+Stock-S&P500CompositePriceIndex(_SPXD).csv
+Stock-ShanghaiSECompositePriceIndex(_SSECD).csv
+Stock-SwitzerlandPriceIndex(_SPIXD).csv
+Stock-UKFTSEAll-ShareIndex(_FTASD).csv
+Treasury-Germany1-MonthTreasuryBondYield(ITDEU1D).csv
+Treasury-US1-MonthTreasuryBillYield(ITUSA1D).csv
