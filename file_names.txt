@@ -2,8 +2,6 @@
 Commod-GoldPrice(__XAU_D).csv
 Commod-OilPrice(__WTC_D).csv
 Commod-ReutersCRBIndex(_TRCCRBD).csv
-Commod-ReutersCRBIndustrialRaw(CMCRBIND).csv
-Commod-ReutersCRBmetal(CMCRBMED).csv
 CorpBond-MoodyBAA(MOCBAAD).csv
 Employ-EuropeUnemploymentRate(UNEUR19M).csv
 Employ-USInitialClaimsForUnemploymentInsurance(USICSAM).csv
@@ -19,8 +17,6 @@ GovBond-US10-yearBondYield(IGUSA10D).csv
 GovBond-US2-yearNoteYield(IGUSA2D).csv
 ImportExport-EuropeExport(NE.EXP.GNFS.KD.EUU).csv
 ImportExport-EuropeImport(NE.IMP.GNFS.KD.EUU).csv
-ImportExport-GermanExportsGoods(TDGXDEUM).csv
-ImportExport-GermanImportsGoods(TDGMDEUM).csv
 ImportExport-USExport(TDGXUSAM).csv
 ImportExport-USExport(USEXPGSAA).csv
 ImportExport-USImport(TDGMUSAM).csv
@@ -37,7 +33,7 @@ Product-GermanyIndustrialProductionIndex(NDDEUM).csv
 Product-GermanyMarkitIndex(PMIDEUM).csv
 Product-USConsumerConfidenceIndex(CCUSAM).csv
 Product-USConsumerSentiment(USUMCSENTM).csv
-Product-USGDP(NY.GDP.MKTP.CD.USA).csv
+Product-USGDP(GDPUSA).csv
 Product-USGDPGrowth(NY.GDP.MKTP.KD.ZG.USA).csv
 Product-USManufacturerOrdersDurableGoods(USDGORDERM).csv
 Product-USMarkitIndex(PMIUSAM).csv
@@ -48,8 +44,6 @@ Stocks-S&P500CompositePriceIndex(_SPXD).csv
 Stocks-ShanghaiSECompositePriceIndex(_SSECD).csv
 Stocks-SwitzerlandPriceIndex(_SPIXD).csv
 Stocks-UKFTSEAll-ShareIndex(_FTASD).csv
-Stocks-VIX(_VIXD).csv
 Treasury-Germany1-MonthTreasuryBondYield(ITDEU1D).csv
 Treasury-Germany3-MonthTreasuryBondYield(ITDEU3D).csv
 Treasury-US1-MonthTreasuryBillYield(ITUSA1D).csv
-Treasury-US3-MonthTreasuryBillYield(ITUSA3CMD).csv
