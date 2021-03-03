@@ -1,6 +1,5 @@
-﻿Ticker,Name,Series Type,Currency,Country,Sector,Industry,Sic,Exchange,Cik,Fiscal_End,Units,Scale,Flow,Adjustment,Periodicity,Metadata,Corporate_History
+Ticker,Name,Series Type,Currency,Country,Sector,Industry,Sic,Exchange,Cik,Fiscal_End,Units,Scale,Flow,Adjustment,Periodicity,Metadata,Corporate_History
 NY.GDP.MKTP.CD.USA,United States GDP (current US$),National Account Aggregates,United States Dollar,United States,,,,,,,National Currency,Billions,Annual,Current Not Seasonally Adjusted,Annual From Dec 1960 To Dec 2018<BR>,Definition:GDP at purchaser's prices is the sum of gross value added by all resident producers in the economy plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated assets or for depletion and degradation of natural resources. Data are in current U.S. dollars. Dollar figures for GDP are converted from domestic currencies using single year official exchange rates. For a few countries where the official exchange rate does not reflect the rate effectively applied to actual foreign exchange transactions  an alternative conversion factor is used.
-Source:World Bank national accounts data  and OECD National Accounts data files.,
 Date,Ticker,Open,High,Low,Close
 12/31/1960,NY.GDP.MKTP.CD.USA,,,,543.3
 12/31/1961,NY.GDP.MKTP.CD.USA,,,,563.3
