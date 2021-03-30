@@ -3,7 +3,7 @@ import pandas as pd
 
 def get_data(file='file_names.txt', start='1970-01-01', end='2020-12-31', 
              cols=['Close', 'Open', 'High', 'Low'], 
-             method='ffill', init='bfill', verbose=False):   
+             method='ffill', init='bfill', verbose=False, normalize=False):   
 
     """ 
     Get all daily data, padding NaNs with appropriate values.
@@ -38,7 +38,9 @@ def get_data(file='file_names.txt', start='1970-01-01', end='2020-12-31',
             ## if column NaN, don't use
             if pd.isna(s[0]):
                 continue
-
+            
+            #headers.append((count+name+col))
+            
             if verbose:
                 print(count, name, col)
 
@@ -46,16 +48,19 @@ def get_data(file='file_names.txt', start='1970-01-01', end='2020-12-31',
             s = s.reindex(ix, method=method)
 
 #            ## normalize to Close
-#            ticker = df['Ticker'][0]
-#            if normalize and ticker != 'USDEUR':
-#                if col == 'Close':
-#                    mean = s.mean()
-#                    std = s.std(ddof=0)
-#                s = (s - mean)/std
+            ticker = df['Ticker'][0]
+            
+            ## Don't normalize the US-Euro exchange rate.
+            if normalize and ticker != 'USDEUR':
+                if col == 'Close':
+                    mean = s.mean()
+                    std = s.std(ddof=0)
+                s = (s - mean)/std
 
             ## handle leading NaNs
             if init == 'bfill':
                 s.bfill(inplace=True)
+
             else:
                 s.fillna(init, inplace=True)
 
